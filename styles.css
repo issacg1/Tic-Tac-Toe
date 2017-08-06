@@ -1,0 +1,196 @@
+.headerText {
+  text-align: center;
+  color: red;
+  margin-top: 30px;
+  font-size: 250%;
+  font-weight: bold;
+}
+.headerText2{
+  text-align: center;
+  color: red;
+  font-size: 190%;
+}
+
+.button1{
+  height: 10vh;
+  width: 10vw;
+  border: 1.5px solid black;
+  border-radius: 10px;
+  font-size: 80%;
+  background-color: red;
+  color: white;
+  margin: auto 70px 30px auto;
+}
+
+button.button1:hover{
+  background-color: green;
+}
+
+.button2{
+  height: 10vh;
+  width: 10vw;
+  border: 1.5px solid black;
+  border-radius: 10px;
+  font-size: 90%;
+  background-color: red;
+  color: white;
+  margin: auto auto 30px 70px;
+}
+
+button.button2:hover{
+  background-color: green;
+}
+
+.container{
+  height: 450px;
+  width: 430px;
+  margin: 50px auto;
+
+}
+
+.box {
+  height: 132px;
+  width: 131.8px;
+  display: inline-block;
+  margin:0px;
+  padding:0px;
+}
+.box1{
+  border-right: 1.5px solid black;
+  border-bottom: 1.5px solid black;
+  float: left;
+}
+.box2{
+  border-bottom:1.5px solid black;
+  float: left;
+
+}
+.box3{
+  border-bottom:1.5px solid black;
+  border-left: 1.5px solid black;
+  float: left;
+}
+
+.box4{
+  border-right: 1.5px solid black;
+  border-bottom: 1.5px solid black;
+  float: left;
+}
+
+.box5{
+  border-bottom:1.5px solid black;
+  float: left;
+}
+
+.box6{
+  border-bottom:1.5px solid black;
+  border-left: 1.5px solid black;
+  float: left;
+}
+
+.box7{
+  border-right: 1.5px solid black;
+  float: left;
+}
+
+.box8{
+  float: left;
+}
+
+.box9{
+  border-left: 1.5px solid black;
+  float: left;
+}
+.scoreBoard {
+  height: 500px;
+  width: 500px;
+  margin: auto;
+}
+.scoreBoardImage{
+  height: 500px;
+  width: 500px;
+  display: inline-block;
+  margin:20px;
+  padding:0px;
+  background-image: url("pictures/cb.jpg");
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: 500px;
+  position: relative;
+}
+.copy{
+  padding-top: 70px;
+  color: red;
+  text-decoration: underline;
+  font-size: 30px;
+  font-weight: bold;
+}
+.info{
+  color: red;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+@media (max-width: 1185px){
+  .button1{
+    font-size: 70%;
+    height: 8vh;
+    width: 10vw;
+    margin: auto 75px 30px auto;
+  }
+  .button2{
+    font-size: 70%;
+    height: 8vh;
+    width: 8.2vw;
+    margin: auto auto 30px 80px;
+  }
+}
+
+@media (max-width: 965px){
+  .container{
+    height: 500px;
+    width: 400px;
+  }
+  .box{
+    height: 150px;
+  }
+  .button1{
+    font-size: 60%;
+    height: 7vh;
+    width: 12vw;
+    margin: auto 95px 30px auto;
+  }
+  .button2{
+    font-size: 60%;
+    height: 7vh;
+    width: 9vw;
+    margin: auto auto 30px 90px;
+  }
+  .headerText{
+    font-size: 200%;
+  }
+  .headerText2{
+    font-size: 140%;
+  }
+}
+
+@media(max-width: 765px){
+  .button1{
+    font-size: 60%;
+    height: 7vh;
+    width: 17vw;
+    margin: auto 95px 30px auto;
+  }
+  .button2{
+    font-size: 60%;
+    height: 7vh;
+    width: 15vw;
+  }
+  .container{
+    height: 500px;
+    width: 450px;
+  }
+  .box{
+    height: 150px;
+  }
+}
