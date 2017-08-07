@@ -51,6 +51,7 @@ function posA1B(){
       checker6();
       checker7();
       checker8();
+      draw();
     }
     else{
       posA1.style="background-color: blue;"
@@ -64,6 +65,7 @@ function posA1B(){
       checker6();
       checker7();
       checker8();
+      draw();
     }
   }
   else{
@@ -86,6 +88,7 @@ function posA2B (){
       checker6();
       checker7();
       checker8();
+      draw();
     }
     else{
       posA2.style="background-color: blue;"
@@ -99,6 +102,7 @@ function posA2B (){
       checker6();
       checker7();
       checker8();
+      draw();
     }
   }
   else{
@@ -122,6 +126,7 @@ function posA3B (){
       checker6();
       checker7();
       checker8();
+      draw();
     }
     else{
       posA3.style="background-color: blue;"
@@ -135,6 +140,7 @@ function posA3B (){
       checker6();
       checker7();
       checker8();
+      draw();
     }
   }
   else{
@@ -158,6 +164,7 @@ function posB1B(){
       checker6();
       checker7();
       checker8();
+      draw();
     }
     else{
       posB1.style="background-color: blue;"
@@ -171,6 +178,7 @@ function posB1B(){
       checker6();
       checker7();
       checker8();
+      draw();
     }
   }
   else{
@@ -194,6 +202,7 @@ function posB2B(){
       checker6();
       checker7();
       checker8();
+      draw();
     }
     else{
       posB2.style="background-color: blue;"
@@ -207,6 +216,7 @@ function posB2B(){
       checker6();
       checker7();
       checker8();
+      draw();
     }
   }
   else{
@@ -230,6 +240,7 @@ function posB3B(){
       checker6();
       checker7();
       checker8();
+      draw();
     }
     else{
       posB3.style="background-color: blue;"
@@ -243,6 +254,7 @@ function posB3B(){
       checker6();
       checker7();
       checker8();
+      draw();
     }
   }
   else{
@@ -266,6 +278,7 @@ function posC1B(){
       checker6();
       checker7();
       checker8();
+      draw();
     }
     else{
       posC1.style="background-color: blue;"
@@ -279,6 +292,7 @@ function posC1B(){
       checker6();
       checker7();
       checker8();
+      draw();
     }
   }
   else{
@@ -302,6 +316,7 @@ function posC2B(){
       checker6();
       checker7();
       checker8();
+      draw();
     }
     else{
       posC2.style="background-color: blue;"
@@ -315,6 +330,7 @@ function posC2B(){
       checker6();
       checker7();
       checker8();
+      draw();
     }
   }
   else{
@@ -338,6 +354,7 @@ function posC3B(){
       checker6();
       checker7();
       checker8();
+      draw();
     }
     else{
       posC3.style="background-color: blue;"
@@ -351,6 +368,7 @@ function posC3B(){
       checker6();
       checker7();
       checker8();
+      draw();
     }
   }
   else{
@@ -737,5 +755,13 @@ function startGame (){
   }
   else{
     alert("To restart the game with new players refresh this page. To keep going with the same players just start playing.");
+  }
+}
+
+//Draw alert
+function draw(){
+  if ((players[0].hands.length === 4 && players[1].hands.length === 5) || (players[0].hands.length === 5 && players[1].hands.length === 4)){
+    alert("Its a draw!");
+    reset();
   }
 }
